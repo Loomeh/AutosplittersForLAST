@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const autosplittersList = document.getElementById('autosplitters-list');
-    const url = 'https://raw.githubusercontent.com/Wins1ey/LuaAutoSplitters/main/autosplitters.csv';
+    const url = 'https://raw.githubusercontent.com/Loomeh/AutosplittersForLAST/main/autosplitters.csv';
 
     fetch(url)
         .then(response => response.text())
